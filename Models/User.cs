@@ -10,8 +10,9 @@ namespace Food_Ordering_API.Models
         [Required] 
         public string Username { get; set; }
         [Required] 
-        public string Password { get; set; }  // For demo (use hashing in real app)
+        public string Password { get; set; }  
         [Required] 
-        public string Role { get; set; }  // "Admin", "Customer", "DeliveryAgent"
+        public string Role { get; set; }  
     }
 }
+
